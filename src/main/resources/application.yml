@@ -3,3 +3,7 @@ spring:
     username: user
     password: password
     url: jdbc:postgresql://localhost:5434/posts
+  sql:
+    init:
+      mode: always
+
